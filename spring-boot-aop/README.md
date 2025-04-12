@@ -47,6 +47,14 @@ Executes at the end of the business method.
 Executes when exception is raised in the business method.
 
 * Around Advice:
-Executes at both the beginning and end of the business method. This advice gets executed in two parts. One part gets executed at the start of the business method and another part gets executed at the end of the business method. 
+Executes at both the beginning and end of the business method. This advice gets executed in two parts. One part gets executed at the start of the business method and another part gets executed at the end of the business method.
+
+## Dependencies to be added for AOP in spring boot
+```
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-aop</artifactId>
+</dependency>
+```
 
 
